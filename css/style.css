@@ -14,3 +14,13 @@ li{
    color:white;
    list-style: none;
 }
+.navigation{
+   width: 20%;
+   /*background-color: yellow;*/
+}
+
+.navigation li{
+   padding-top: 10px;
+   padding-bottom: 20px;
+
+}
