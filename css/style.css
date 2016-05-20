@@ -1,0 +1,16 @@
+a{
+   font-style: helvetica;
+   color:white;
+   text-decoration: none;
+}
+body{
+   background-color: #000000;
+}
+p{
+   color: #000000;
+
+}
+li{
+   color:white;
+   list-style: none;
+}
