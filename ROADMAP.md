@@ -16,5 +16,11 @@ portfolios
    - application description (text)
 teams
    ATTRIBUTES
+   - thumbnail (img)
+   - first name (char)
+   - last name (char)
+   - job title(char)
+   - description (text)
+
 contacts
    ATTRIBUTES
