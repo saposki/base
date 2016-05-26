@@ -11,6 +11,9 @@ pages(home)
          - description - (text)
 portfolios
    ATTRIBUTES
+   - thumbnail (img)
+   - title (text)
+   - application description (text)
 teams
    ATTRIBUTES
 contacts
