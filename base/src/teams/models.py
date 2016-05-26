@@ -13,13 +13,13 @@ class Team(models.Model):
     width_field = models.IntegerField(default=0)
 
     #first name
-    first_name = models.CharField(max_length=120, default='title')
+    first_name = models.CharField(max_length=120, default='first name')
 
     #last name
-    last_name = models.CharField(max_length=120, default='title')
+    last_name = models.CharField(max_length=120, default='last name')
 
     #job title
-    last_name = models.CharField(max_length=120, default='title')
+    job_title = models.CharField(max_length=120, default='job title')
 
     #description
     description = models.TextField(max_length=240, default='description')

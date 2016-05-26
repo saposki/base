@@ -11,8 +11,10 @@ class Portfolio(models.Model):
         height_field='height_field')
     height_field = models.IntegerField(default=0)
     width_field = models.IntegerField(default=0)
+
     #title
     title = models.CharField(max_length=120, default='title')
+
     #application description
     description = models.TextField(max_length=240, default='description')
 

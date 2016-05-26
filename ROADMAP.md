@@ -24,3 +24,7 @@ teams
 
 contacts
    ATTRIBUTES
+   - name (char)
+   - telephone (char)
+   - email (char)
+   - message (text)
