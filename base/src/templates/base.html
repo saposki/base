@@ -1,19 +1,21 @@
+{% load staticfiles%}
+
 <html>
    <head>
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="{% static "css/style.css" %}">
       <title>moringa</title>
    </head>
    <body>
       <header>
          <div class="logo">
-            <img src="img/moringa.png" alt="">
+            <img src="{% static "img/moringa.png" %}" alt="">
          </div>
-         <div class="page">TEAM</div>
+         <div class="page"></div>
       </header>
       <div class="navigation">
          <ul>
             <li>
-               <a  class="home" href="#">home</a>
+               <a  class="home" href="">home</a>
             </li>
             <li><a class="porfolio" href="#">portfolio</a>
             </li>
@@ -23,7 +25,11 @@
             </li>
          </ul>
       </div>
+      <div class="container">
+      {% block container %}
 
+      {% endblock container %}
+      </div>
 
    </body>
    <footer>
@@ -37,21 +43,21 @@
    <div class="social">
       <ul>
          <li>
-            <a href="https://twitter.com/moringadevshop"><img src="img/twitter.png" alt=""></a>
+            <a href="https://twitter.com/moringadevshop"><img src="{% static "img/twitter.png" %}" alt=""></a>
          </li>
 
-         <li><a href="https://www.facebook.com/moringadevshop/?ref=hl"><img src="img/facebook.png" alt=""></a>
+         <li><a href="https://www.facebook.com/moringadevshop/?ref=hl"><img src="{% static "img/facebook.png" %}" alt=""></a>
          </li>
 
-         <li><a href="https://www.linkedin.com/company/moringa-devshop?trk=top_nav_home"><img src="img/linkedin.png" alt=""></a>
-         </li>
-
-         <li>
-            <a href="https://www.instagram.com/moringadevshop/"><img src="img/instagram.png" alt=""></a>
+         <li><a href="https://www.linkedin.com/company/moringa-devshop?trk=top_nav_home"><img src="{% static "img/linkedin.png" %}" alt=""></a>
          </li>
 
          <li>
-            <a href="https://goo.gl/maps/1ftpPHEijyp"><img src="img/maps.png" alt=""></a>
+            <a href="https://www.instagram.com/moringadevshop/"><img src="{% static "img/instagram.png" %}" alt=""></a>
+         </li>
+
+         <li>
+            <a href="https://goo.gl/maps/1ftpPHEijyp"><img src="{% static "img/maps.png" %}" alt=""></a>
          </li>
       </ul>
    </div>

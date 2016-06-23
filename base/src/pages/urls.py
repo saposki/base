@@ -6,5 +6,5 @@ from . views import(
 )
 
 urlpatterns = [
-    url(r'^$', page),
+    url(r'^$', page, name='he' ),
 ]

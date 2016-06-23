@@ -6,5 +6,5 @@ from .views import(
 )
 
 urlpatterns = [
-    url(r'^$', portfolio),
+    url(r'^$', portfolio, name='po'),
 ]
