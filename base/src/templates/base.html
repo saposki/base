@@ -12,6 +12,9 @@
          </div>
          <div class="page"></div>
       </header>
+   <div class="container">
+
+
       <div class="navigation">
          <ul>
             <li>
@@ -25,11 +28,12 @@
             </li>
          </ul>
       </div>
-      <div class="container">
-      {% block container %}
+      <div class="content">
+         {% block content %}
 
-      {% endblock container %}
+         {% endblock content %}
       </div>
+   </div>
 
    </body>
    <footer>
