@@ -18,13 +18,13 @@
       <div class="navigation">
          <ul>
             <li>
-               <a  class="home" href="">home</a>
+               <a  class="home" href="{% url 'home:he' %}">home</a>
             </li>
-            <li><a class="porfolio" href="#">portfolio</a>
+            <li><a class="porfolio" href="{% url 'portfolio:po'%}">portfolio</a>
             </li>
-            <li><a class="team" href="#">team</a>
+            <li><a class="team" href="{% url 'team:te'%}">team</a>
             </li>
-            <li><a class="contact" href="#">contact</a>
+            <li><a class="contact" href="{%url 'contact:co' %}">contact</a>
             </li>
          </ul>
       </div>

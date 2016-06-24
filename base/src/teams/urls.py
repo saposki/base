@@ -6,5 +6,5 @@ from .views import(
 )
 
 urlpatterns = [
-    url(r'^$', team),
+    url(r'^$', team, name='te'),
 ]
